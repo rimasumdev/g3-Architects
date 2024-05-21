@@ -190,6 +190,7 @@ body {
 .feature-text .feature-title {
   color: #727272;
   font-size: 2.5rem;
+  line-height: 1.4;
   font-weight: 800;
   margin-bottom: 10px;
 }
