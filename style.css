@@ -284,6 +284,82 @@ body {
   font-size: 4.5rem;
   font-weight: 700;
 }
+/* Fun Facts Section */
+.funfacts-section {
+  padding: 100px 0;
+}
+.funfacts-section .funfacts-title-description {
+  margin-bottom: 5rem;
+}
+.funfacts-section .funfacts-title-description .funfacts-title {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-weight: 800;
+  padding-bottom: 2.4rem;
+}
+.funfacts-section .funfacts-title-description .funfatcs-description {
+  font-size: 1.6rem;
+  color: var(--Gray);
+}
+.funfacts-section .funfacts {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.funfacts-section .funfacts .fact {
+  width: 242px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--Button-Primary);
+  padding: 4rem;
+  border-radius: 8px;
+}
+.funfacts-section .funfacts .fact p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.funfacts-section .funfacts .fact p span {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+.sponsors {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.sponsors .sponsors-text {
+  padding-bottom: 4.5rem;
+}
+.sponsors .sponsors-text h4 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-weight: 800;
+  padding-bottom: 1.4rem;
+}
+.sponsors .sponsors-text p {
+  font-size: 1.6rem;
+  color: var(--Gray);
+  text-align: justify;
+}
+.sponsors .images {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  filter: grayscale(1);
+}
+.footer {
+  background: #fff4e7;
+  padding: 20px;
+}
+.footer p {
+  text-align: center;
+}
 
 /* Media Query */
 
@@ -337,6 +413,29 @@ body {
   }
   .feature-list .list-image {
     width: 100%;
+  }
+  /* Fun Facts Section */
+  .funfacts-section {
+    padding: 40px 0;
+  }
+  .funfacts-section .funfacts-title-description {
+    margin-bottom: 4rem;
+  }
+  .funfacts-section .funfacts-title-description .funfacts-title {
+    padding-bottom: 1.6rem;
+  }
+  .funfacts-section .funfacts {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* Sponsors */
+  .sponsors {
+    text-align: center;
+    padding: 150px 0;
+  }
+  .sponsors .images {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 /* @media screen and (max-width: 576px) {
